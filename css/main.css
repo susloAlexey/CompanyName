@@ -1,68 +1,59 @@
 /*---navbar---*/
+.navbar { font-family: 'AdventPro-Bold'; }
+.navbar-nav { color: white; }
 .navbar-inverse {
 	background-color: black;
 	color: white;
 	margin: 0;
 	padding: 0;
 	border: 0;
-	border-radius: 0;
 	border-bottom: 5px solid #00aba9;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
 }
-
 .navbar-brand { 
 	font-size: 28px;
 	font-weight: 700;
 	margin-top: 10px;
 	padding-right: 0;
 }
-
-.navbar-brand span { 
-	color: #00aba9;
-}
-
-.navbar-brand small { 
-	font-size: 14px;
-}
-
-.navbar-right {
-	padding-left: 0;
-}
-
+.navbar-brand .brand { color: white; }
+.navbar-brand .brand:hover { opacity: 0.8; }
+.navbar-brand span { color: #00aba9; }
+.navbar-brand small { font-size: 14px;}
+.navbar-right {	padding-left: 0; }
 .navbar-right a {
 	font-size: 20px;
-	font-weight: 700;
 	margin-top: 25px;
 }
-
-.navbar-toggle {
-	margin: 25px 25px 25px 0;
-}
+.navbar-right .nav-item { color: white; }
+.navbar-toggle { margin: 25px 25px 25px 0; }
 
 /*---slider---*/
 .jumbotron { 
 	text-align: center;
+	height: 600px;
+	margin-bottom: 0;
+	margin-top: 75px;	
+	border-bottom: 5px solid #00aba9;	
 	background-image: url(../images/header-bg.jpg);
 	background-size: cover;
-	height: 600px;
-	border-bottom: 5px solid #00aba9;
-	margin-bottom: 0;
-	margin-top: 75px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
-.jumbotron h1 { color: #008287; margin-top: 200px; }
-.jumbotron h1 span {
-	background-color: #008287;
-	color: white;
-	padding: 2px 10px;
-	margin: 10px 0; 
-}
+.jumbotron h1 { color: #008287;	margin-top: 200px; font-family: 'AdventPro-SemiBold'; }
+.jumbotron h1 span { color: white; background-color: #008287; padding: 2px 10px; }
 
 /*---content---*/
 .content { text-align: center; }
-.content h2 { color: black; font-weight: 700; }
-.content p { font-size: 18px; }
+.content h2 { color: black; font-family: 'AdventPro-Bold'; font-size: 38px; }
+.content p { font-size: 18px; font-family: 'OpenSans'; line-height: 1.8; }
 
 /*---about---*/
-.about { padding: 5em 0;}
+.about { padding: 5em 0; }
 .about h2 span { color: #00aba9; }
 
 /*---services---*/
@@ -70,16 +61,15 @@
 .services h2 span {	color: white; }
 .services p { color: white; }
 .services-container { margin-top: 50px; text-align: left; }
-.services-container h3 { color: black; font-weight: 700; }
+.services-container h3 { color: black; font-family: 'AdventPro-SemiBold'; font-size: 32px; }
 .services-container .icon {
 	width: 85px;
 	height: 85px;
-	border: 6px solid white;
-	border-image: url(../images/icon-border.png) 9% repeat;
-	float: left;
 	display: inline;
+	float: left;
 	margin: 25px 15px 0 0;
-
+	border: 6px solid white;
+	border-image: url(../images/icon-border.png) 9% repeat;	
 }
 .services-container .icon .fa {
 	display:inline-block;
@@ -90,54 +80,52 @@
 	vertical-align: bottom;
 	color: white;			
 }
-
 .services-container .description {
 	float: left;
-	overflow: hidden;
-	width: 65%;
+	width: 70%;
 }
-
-.services-container .description p {
-	font-size: 14px;
-}
+.services-container .description p { font-size: 14px; }
 
 /*---news---*/
 .news { padding: 5em 0; }
 .news h2 span { color: #00aba9; }
-
 .news-container { margin-top: 60px; color: white; }
-
 .news-block-main {
 	width: 100%;
 	height: 390px;
 	margin-bottom: 30px;
 	background-image: url(../images/url.jpg);
-	background-size: cover;
 	background-position: 30% 50%;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 .news-block {
 	width: 100%;
 	height: 180px;
 	margin-bottom: 30px;
 	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 .news-block-1 {	background-image: url(../images/url1.jpg); }
 .news-block-2 {	background-image: url(../images/8a829__Cocktail-Garden-designrulz-2.jpg); }
 .news-block-3 {	background-image: url(../images/5.jpg); }
 .news-block-4 {	background-image: url(../images/Color-Pencils.jpg); }
-
 .date {
 	width: 112px;
 	height: 25px;
 	float: right;
-	font-size: 12px;
+	font-size: 14px;
 	text-align: center;
 	line-height: 25px;
 	vertical-align: middle;
+	font-family: 'AdventPro-Bold';
 }
 .news-block-main .date { background-color: rgba(0, 0, 0, 0.7); }
 .news-block .date {	background-color: rgba(0, 130, 135, 0.7); }
-
 .news-block-main .title {
 	width: 100%;
 	height: 100px;
@@ -148,16 +136,13 @@
 	padding-left: 15px;
 	padding-top: 10px;
 }
-
 .news-block-main h3 {
 	color: black;
 	margin: 0 0 5px 0;
+	font-size: 26px;
+	font-family: 'AdventPro-SemiBold';
 }
-
-.news-block-main p {
-	font-size: 14px;
-}
-
+.news-block-main p { font-size: 14px; }
 .news-block .title {
 	width: 100%;
 	height: 35px;
@@ -166,44 +151,31 @@
 	padding-left: 15px;
 	background-color: rgba(0, 0, 0, 0.7);
 	font-size: 16px;
-	font-weight: 400;
 	text-align: left;
 	line-height: 35px;
 	vertical-align: middle;
+	font-family: 'AdventPro-SemiBold';
 }
 
 /*---contacts---*/
 .contacts {
 	padding: 5em 0;
+	color: white;
+	border-bottom: 5px solid #00aba9;
 	background-image: url(../images/contacts-bg.jpg);
 	background-size: cover;
-	border-bottom: 5px solid #00aba9;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
-
-.contacts h2 span { color: white; }
-.contacts p { color: white; }
-.contacts h3 { color: white; text-align: left; font-weight: }
-.contacts a { color: white; }
-
-.contacts-container {
-	margin-top: 30px;
-}
-
+.contacts h2 span, .contacts a { color: white; }
+.contacts h3 { text-align: left; font-family: 'OpenSans';}
+.contacts-container { margin-top: 30px; }
 .map-container { margin-top: 20px; }
-.map {
-	width: 100%;
-	height: 210px;
-	border: 0;
-}
-
-.contact {
-	float: left;
-	line-height: 0.8;
-}
-
+.map { width: 100%; height: 210px; border: 0; frameborder: 0; }
+.contact { float: left; }
 .contact-adress { text-align: left; width: 40%;}
 .contact-phones { text-align: right; width: 60%;}
-
 .to-top {
 	width: 40px;
 	height: 40px;
@@ -217,10 +189,11 @@
 
 /*---footer---*/
 .footer { background-color: black; padding: 3em 0 2em 0; }
-.footer h3 { display: inline; color: white; }
+.footer p { font-family: 'OpenSans';}
 .footer span { color: #008287; }
 .footer-privacy { margin-bottom: 20px; }
 .footer-privacy a {	font-size: 14px; text-decoration: none;	color: white; }
+.footer-privacy h3 { display: inline; color: white; font-family: 'AdventPro-SemiBold'; }
 .footer-socials { padding: 0; margin: 0 0 15px 0; }
 .social {
 	font-size: 130%;
@@ -240,3 +213,26 @@
 .social:hover {	background-color: black; }
 .footer-copyright {	padding-top: 5px; padding-left: 0; }
 .footer-copyright p { color: white; }
+.footer-copyright span { font-family: 'OpenSans-SemiBold'; }
+
+/*-fonts-*/
+@font-face {
+    font-family: AdventPro;
+    src: url(../fonts/Advent_Pro/AdventPro-Regular.ttf);
+}
+@font-face {
+    font-family: AdventPro-SemiBold;
+    src: url(../fonts/Advent_Pro/AdventPro-SemiBold.ttf);
+}
+@font-face {
+    font-family: AdventPro-Bold;
+    src: url(../fonts/Advent_Pro/AdventPro-Bold.ttf);
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans-SemiBold;
+    src: url(../fonts/Open_Sans/OpenSans-Semibold.ttf);
+}
