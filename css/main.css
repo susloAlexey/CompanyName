@@ -6,12 +6,14 @@
 	padding: 0;
 	border: 0;
 	border-radius: 0;
+	border-bottom: 5px solid #00aba9;
 }
 
 .navbar-brand { 
 	font-size: 28px;
 	font-weight: 700;
-	margin-top: 8px;
+	margin-top: 10px;
+	padding-right: 0;
 }
 
 .navbar-brand span { 
@@ -20,7 +22,10 @@
 
 .navbar-brand small { 
 	font-size: 14px;
-	font-weight: 700;
+}
+
+.navbar-right {
+	padding-left: 0;
 }
 
 .navbar-right a {
@@ -30,7 +35,7 @@
 }
 
 .navbar-toggle {
-	margin: 20px 20px 20px 0;
+	margin: 25px 25px 25px 0;
 }
 
 /*---slider---*/
@@ -39,7 +44,6 @@
 	background-image: url(../images/header-bg.jpg);
 	background-size: cover;
 	height: 600px;
-	border-top: 5px solid #00aba9;
 	border-bottom: 5px solid #00aba9;
 	margin-bottom: 0;
 	margin-top: 75px;
@@ -62,28 +66,43 @@
 .about h2 span { color: #00aba9; }
 
 /*---services---*/
-.services {	background-color: #008287; padding: 6em 0; }
+.services {	background-color: #008287; padding: 5em 0; }
 .services h2 span {	color: white; }
 .services p { color: white; }
-.services-container { margin-top: 50px; }
-.services-container { text-align: left; }
-.services-container p { text-align: left; font-size: 16px; }
+.services-container { margin-top: 50px; text-align: left; }
 .services-container h3 { color: black; font-weight: 700; }
+.services-container .icon {
+	width: 85px;
+	height: 85px;
+	border: 6px solid white;
+	border-image: url(../images/icon-border.png) 9% repeat;
+	float: left;
+	display: inline;
+	margin: 25px 15px 0 0;
 
-.services .fa {
-    display:inline-block;
-    font-size: 48px;
-    line-height: 80px;
-    border: 4px solid white;
-    color:white;
-    width: 80px;
-    height: 80px;
-    text-align: center;
-    vertical-align: bottom;
+}
+.services-container .icon .fa {
+	display:inline-block;
+	line-height: 75px;
+	width: 75px;
+	height: 75px;
+	text-align: center;
+	vertical-align: bottom;
+	color: white;			
+}
+
+.services-container .description {
+	float: left;
+	overflow: hidden;
+	width: 65%;
+}
+
+.services-container .description p {
+	font-size: 14px;
 }
 
 /*---news---*/
-.news { padding: 6em 0; }
+.news { padding: 5em 0; }
 .news h2 span { color: #00aba9; }
 
 .news-container { margin-top: 60px; color: white; }
@@ -127,12 +146,16 @@
 	background-color: rgba(0, 130, 135, 0.7);
 	text-align: left;
 	padding-left: 15px;
-	padding-top: 15px;
+	padding-top: 10px;
 }
 
 .news-block-main h3 {
 	color: black;
 	margin: 0 0 5px 0;
+}
+
+.news-block-main p {
+	font-size: 14px;
 }
 
 .news-block .title {
@@ -151,7 +174,7 @@
 
 /*---contacts---*/
 .contacts {
-	padding: 6em 0;
+	padding: 5em 0;
 	background-image: url(../images/contacts-bg.jpg);
 	background-size: cover;
 	border-bottom: 5px solid #00aba9;
@@ -175,12 +198,11 @@
 
 .contact {
 	float: left;
-	width: 50%;
 	line-height: 0.8;
 }
 
-.contact-adress { text-align: left; }
-.contact-phones { text-align: right; }
+.contact-adress { text-align: left; width: 40%;}
+.contact-phones { text-align: right; width: 60%;}
 
 .to-top {
 	width: 40px;
@@ -189,7 +211,7 @@
 	color: white; 
 	float: right;
 	position: relative;
-	top: 45px;
+	top: 30px;
 	font-size: 30px;
 }
 
