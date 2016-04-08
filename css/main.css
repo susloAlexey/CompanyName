@@ -6,19 +6,12 @@
 	padding: 0;
 	border: 0;
 	border-radius: 0;
-	height: 80px;
-}
-
-.navbar-right a {
-	font-size: 20px;
-	font-weight: 700;
-	margin-top: 25px;
 }
 
 .navbar-brand { 
 	font-size: 28px;
 	font-weight: 700;
-	margin-top: 5px;
+	margin-top: 8px;
 }
 
 .navbar-brand span { 
@@ -30,6 +23,16 @@
 	font-weight: 700;
 }
 
+.navbar-right a {
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 25px;
+}
+
+.navbar-toggle {
+	margin: 20px 20px 20px 0;
+}
+
 /*---slider---*/
 .jumbotron { 
 	text-align: center;
@@ -39,6 +42,7 @@
 	border-top: 5px solid #00aba9;
 	border-bottom: 5px solid #00aba9;
 	margin-bottom: 0;
+	margin-top: 75px;
 }
 .jumbotron h1 { color: #008287; margin-top: 200px; }
 .jumbotron h1 span {
@@ -50,7 +54,7 @@
 
 /*---content---*/
 .content { text-align: center; }
-.content h2 { color: black; }
+.content h2 { color: black; font-weight: 700; }
 .content p { font-size: 18px; }
 
 /*---about---*/
@@ -61,19 +65,19 @@
 .services {	background-color: #008287; padding: 6em 0; }
 .services h2 span {	color: white; }
 .services p { color: white; }
-.services-container { margin-top: 40px; }
+.services-container { margin-top: 50px; }
 .services-container { text-align: left; }
 .services-container p { text-align: left; font-size: 16px; }
-.services-container h3 { color: black; }
+.services-container h3 { color: black; font-weight: 700; }
 
 .services .fa {
     display:inline-block;
-    font-size: 40px;
-    line-height: 60px;
-    border: 2px solid white;
+    font-size: 48px;
+    line-height: 80px;
+    border: 4px solid white;
     color:white;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     text-align: center;
     vertical-align: bottom;
 }
@@ -82,7 +86,7 @@
 .news { padding: 6em 0; }
 .news h2 span { color: #00aba9; }
 
-.news-container { margin-top: 60px; }
+.news-container { margin-top: 60px; color: white; }
 
 .news-block-main {
 	width: 100%;
@@ -103,6 +107,48 @@
 .news-block-3 {	background-image: url(../images/5.jpg); }
 .news-block-4 {	background-image: url(../images/Color-Pencils.jpg); }
 
+.date {
+	width: 112px;
+	height: 25px;
+	float: right;
+	font-size: 12px;
+	text-align: center;
+	line-height: 25px;
+	vertical-align: middle;
+}
+.news-block-main .date { background-color: rgba(0, 0, 0, 0.7); }
+.news-block .date {	background-color: rgba(0, 130, 135, 0.7); }
+
+.news-block-main .title {
+	width: 100%;
+	height: 100px;
+	position: relative;
+	top: 275px;
+	background-color: rgba(0, 130, 135, 0.7);
+	text-align: left;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+.news-block-main h3 {
+	color: black;
+	margin: 0 0 5px 0;
+}
+
+.news-block .title {
+	width: 100%;
+	height: 35px;
+	position: relative;
+	top: 140px;
+	padding-left: 15px;
+	background-color: rgba(0, 0, 0, 0.7);
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+	line-height: 35px;
+	vertical-align: middle;
+}
+
 /*---contacts---*/
 .contacts {
 	padding: 6em 0;
@@ -113,7 +159,7 @@
 
 .contacts h2 span { color: white; }
 .contacts p { color: white; }
-.contacts h3 { color: white; text-align: left; }
+.contacts h3 { color: white; text-align: left; font-weight: }
 .contacts a { color: white; }
 
 .contacts-container {
@@ -123,7 +169,7 @@
 .map-container { margin-top: 20px; }
 .map {
 	width: 100%;
-	height: 200px;
+	height: 210px;
 	border: 0;
 }
 
